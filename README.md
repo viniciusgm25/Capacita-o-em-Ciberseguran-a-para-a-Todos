@@ -1,73 +1,111 @@
-# Capacitação em Cibersegurança para Todos 🛡️👥
+# 🛡️ Capacitação em Cibersegurança para Todos
 
-Iniciativa de extensão universitária desenvolvida por estudantes da **Universidade Cruzeiro do Sul (UCS)** com o objetivo de mitigar a vulnerabilidade digital e democratizar o conhecimento prático sobre segurança da informação[cite: 1]. 
+[![GitHub license](https://img.shields.io/github/license/viniciusgm25/capacitacao-ciberseguranca?style=flat-square&color=blue)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/viniciusgm25/capacitacao-ciberseguranca?style=flat-square)](https://github.com/viniciusgm25/capacitacao-ciberseguranca/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/viniciusgm25/capacitacao-ciberseguranca?style=flat-square)](https://github.com/viniciusgm25/capacitacao-ciberseguranca/issues)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-O projeto foi construído sob as diretrizes do **ODS 4 (Educação de Qualidade)** e **ODS 10 (Redução das Desigualdades)**, focando em transformar conceitos técnicos complexos em orientações simples, preventivas e acessíveis para cidadãos comuns, com atenção especial a adultos e idosos.
+Uma iniciativa de **Extensão Universitária** desenvolvida por estudantes da **Universidade Cruzeiro do Sul (UCS)**. O projeto visa mitigar a vulnerabilidade digital, promover o letramento tecnológico e democratizar o acesso a práticas essenciais de segurança da informação para a comunidade local, com atenção especial a adultos e idosos.
 
----
-
-## 🎯 O Problema e o Diagnóstico
-
-Durante a fase de pesquisas e entrevistas de empatia com moradores locais, a equipe identificou que o grande tempo de tela diário **não se traduz em segurança digital**. Constatou-se uma falsa sensação de proteção onde os usuários praticam a repetição de senhas simples por conveniência e têm dificuldades graves em identificar tentativas de fraude.
-
----
-
-## 🌐 A Plataforma Web
-
-O site foi estruturado de forma totalmente modular em páginas estáticas (HTML5, CSS3 e JavaScript), onde cada seção ataca diretamente uma das vulnerabilidades mapeadas no diagnóstico da comunidade:
-
-* **`index.html` & `sobre.html`:** Portal de entrada e apresentação da iniciativa acadêmica[cite: 1].
-* **`phishing.html` & `sites.html`:** Guia prático para identificar engenharia social e links fraudulentos.
-* **`senha.html` & `autenticacao.html`:** Instruções para criação de credenciais fortes e uso de dupla autenticação (2FA).
-* **`bancos.html` & `compras.html`:** Proteção do patrimônio financeiro contra golpes de Pix, boletos e e-commerces falsos.
-* **`whatsapp.html` & `redes.html`:** Prevenção à clonagem de contas e exposição excessiva de dados em redes sociais.
-* **`wifi.html` & `atualizacoes.html`:** Cuidados fundamentais com infraestrutura de rede e manutenção de software.
-* **`fake-news.html` & `familia.html`:** Letramento digital básico e proteção para todas as faixas etárias no ambiente doméstico.
-
-Toda a interatividade da plataforma — incluindo os testes de desempenho e os **quizes interativos** para fixação de conteúdo — é gerenciada de forma centralizada pelo arquivo `script.js`.
+O projeto está alinhado com os **Objetivos de Desenvolvimento Sustentável (ODS)** da Organização das Nações Unidas (ONU):
+- 📘 **ODS 4: Educação de Qualidade** — Promovendo a inclusão digital e a autonomia educativa.
+- 🤝 **ODS 10: Redução das Desigualdades** — Diminuindo o abismo tecnológico gerado pela exclusão digital.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
-
-* **HTML5** — Estruturação semântica de todas as 22 páginas temáticas do portal.
-* **CSS3 (`style.css`)** — Design visual, tipografia moderna e responsividade para dispositivos móveis.
-* **JavaScript (`script.js`)** — Lógica interativa das avaliações e feedbacks dinâmicos aos usuários.
-
----
-
-## 👥 Equipe do Projeto
-
-Este projeto foi planejado, executado e distribuído de forma conjunta pelos estudantes[cite: 1]:
-
-* **Bruno Miguel da Silveira Pontes** (Ciência da Computação)[cite: 1]
-* **Eduardo Belentani Bastos** (Ciência da Computação)[cite: 1]
-* **Gabriel Rodrigues Catharino Moreno** (Ciência da Computação)[cite: 1]
-* **Luisa de Souza Aquino** (Ciência da Computação)[cite: 1]
-* **Marco Antonio de Oliveira Miranda** (Ciência da Computação)[cite: 1]
-* **Patricia Correia Marcondes** (Ciência da Computação)[cite: 1]
-* **Pedro Rodrigues de Morais** (Ciência da Computação)[cite: 1]
-* **Samuel Peixoto Miranda** (Ciência da Computação)[cite: 1]
-* **Silvio Martins de Souza** (Pedagogia)[cite: 1]
-* **Vinicius Gonçalves Mesquita** (Ciência da Computação)[cite: 1]
+## 📌 Índice
+- [🎯 Cenário & Diagnóstico](#-cenário--diagnóstico)
+- [🌐 A Plataforma Web Interativa](#-a-plataforma-web-interativa)
+- [📂 Arquitetura do Repositório](#-arquitetura-do-repositório)
+- [🛠️ Tecnologias & Ferramentas](#%EF%B8%8F-tecnologias--ferramentas)
+- [👥 Equipe do Projeto](#-equipe-do-projeto)
+- [📅 Cronograma de Execução](#-cronograma-de-execução)
+- [🚀 Como Executar Localmente](#-como-executar-localmente)
+- [⚙️ Implantação e Deploy](#%EF%B8%8F-implantação-e-deploy)
+- [⚖️ Licença](#%EF%B8%8F-licença)
 
 ---
 
-## 📅 Cronograma de Execução (Maio/Junho 2026)
+## 🎯 Cenário & Diagnóstico
 
-O projeto seguiu uma linha de produção ágil para garantir a entrega integrada dos materiais:
+A partir de pesquisas de campo e entrevistas de empatia com moradores locais, mapeou-se um problema crítico: **o aumento do tempo de tela diário não se traduz em maturidade ou segurança digital**. 
 
-* **24/05 a 26/05:** Redação do conteúdo didático e estruturação dos temas.
-* **26/05 a 27/05:** Design gráfico e diagramação das cartilhas físicas complementares.
-* **26/05 a 28/05:** Desenvolvimento e programação das interfaces web e do quiz interativo (`script.js`).
-* **28/05 a 29/05:** Impressão, logística e distribuição das cartilhas físicas na comunidade.
-* **28/05 a 29/05:** Publicação oficial da plataforma web e hospedagem das páginas.
-* **01/06 a 02/06:** Coleta de métricas de uso e depoimentos dos moradores locais.
+### Principais Vulnerabilidades Identificadas:
+1. **Falsa Sensação de Segurança:** Usuários navegam ativamente na internet diariamente, mas desconhecem os vetores de ataque mais comuns.
+2. **Engenharia Social:** Baixa capacidade de identificação de técnicas de *Phishing*, mensagens falsas em aplicativos de mensagens e e-commerces fraudulentos.
+3. **Gestão de Acessos Precária:** Uso massivo de senhas fracas, curtas e repetidas entre múltiplas contas por conveniência e receio de esquecimento.
+4. **Dependência e Medo:** Falta de autonomia digital, gerando vulnerabilidade acentuada a golpes financeiros e clonagem de contas de comunicação (WhatsApp).
 
 ---
 
-## 📦 Como Executar o Projeto Localmente
+## 🌐 A Plataforma Web Interativa
 
-1. Clone este repositório:
-```bash
-   git clone [https://github.com/viniciusgm25/capacitacao-ciberseguranca.git](https://github.com/viniciusgm25/capacitacao-ciberseguranca.git)
+Para resolver as dores diagnosticadas, foi desenvolvido um ecossistema digital composto por **22 páginas HTML**, estruturado de forma inteiramente modular. Cada página atua como uma trilha de aprendizagem focada em mitigar um risco específico:
+
+| Módulo/Arquivo | Foco Temático e Objetivo Prático |
+| :--- | :--- |
+| `index.html` | Portal principal de entrada, unificando o acesso a todas as trilhas. |
+| `sobre.html` | Apresentação institucional da iniciativa e dos objetivos acadêmicos. |
+| `blog.html` | Espaço dinâmico para notícias, artigos e atualizações de segurança. |
+| `phishing.html` | Técnicas para identificar e-mails e mensagens suspeitas baseadas em urgência artificial. |
+| `sites.html` | Como verificar a autenticidade de um domínio (certificados HTTPS, cadeado de segurança). |
+| `senha.html` | Guia prático de boas práticas para a formulação de credenciais robustas e memoráveis. |
+| `autenticacao.html`| Como ativar e utilizar a Autenticação em Duas Etapas (2FA) em múltiplos serviços. |
+| `bancos.html` | Prevenção a golpes financeiros, fraudes no Pix e boletos adulterados. |
+| `compras.html` | Cuidados essenciais ao realizar transações comerciais em lojas virtuais. |
+| `whatsapp.html` | Passos para evitar a clonagem da conta de mensagens e golpes de engenharia social. |
+| `redes.html` | Como controlar a exposição de dados pessoais e configurar filtros de visibilidade. |
+| `privacidade.html` | Configurações avançadas de privacidade em plataformas digitais de uso cotidiano. |
+| `wifi.html` | Riscos associados à conexão em redes públicas de Wi-Fi e como se proteger. |
+| `atualizacoes.html`| A importância crítica da aplicação regular de patches e atualizações de SO e apps. |
+| `downloads.html` | Como baixar arquivos e programas evitando malwares embutidos em instaladores. |
+| `servicos.html` | Navegação segura e uso consciente de portais governamentais e utilidades públicas[cite: 2]. |
+| `fake-news.html` | Critérios de checagem para evitar a disseminação de desinformação na rede[cite: 2]. |
+| `familia.html` | Estratégias de proteção e boas práticas digitais voltadas para crianças e idosos no lar[cite: 2]. |
+
+> 🧠 **O Quiz Interativo (`script.js`):** Toda a inteligência da plataforma, processamento de acertos/erros, geração de feedback didático imediato e controle do fluxo do quiz são centralizados dinamicamente via JavaScript nativo, garantindo uma aplicação rápida e sem necessidade de infraestrutura de banco de dados complexa[cite: 2].
+
+---
+
+## 📂 Arquitetura do Repositório
+
+O repositório foi organizado seguindo padrões limpos de mercado, isolando documentação acadêmica do código de produção[cite: 2]:
+
+```text
+capacitacao-ciberseguranca/
+│
+├── .github/                  # Arquivos de configuração de plataforma e automações
+│   └── ISSUE_TEMPLATE/       # Templates para relatar bugs ou sugerir melhorias
+│
+├── docs/                     # Documentação de apoio do projeto
+│   └── Capacitacao em Ciberseguranca .pdf  # Documento base original de extensão da UCS
+│
+├── imgs/                     # Ativos estáticos visuais e ilustrações da interface web
+├── video/                    # Mídias e demonstrações em vídeo integradas ao portal
+│
+│   # --- Núcleo e Estilização Estrutural ---
+├── index.html                # Página inicial (Landing Page)
+├── sobre.html                # Página de contexto acadêmico
+├── blog.html                 # Página de artigos de apoio
+├── style.css                 # Folha de estilo unificada e responsiva
+├── script.js                 # Motor lógico do quiz e interações dinâmicas
+│
+│   # --- Módulos Educacionais Temáticos ---
+├── atualizacoes.html
+├── autenticacao.html
+├── bancos.html
+├── compras.html
+├── dados.html
+├── downloads.html
+├── fake-news.html
+├── familia.html
+├── phishing.html
+├── privacidade.html
+├── redes.html
+├── senha.html
+├── servicos.html
+├── sites.html
+├── whatsapp.html
+└── wifi.html
