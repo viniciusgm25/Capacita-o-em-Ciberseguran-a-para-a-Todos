@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conectividade e Segurança - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div id="main-page">
+        <header class="main-header">
+            <div class="header-container">
+                <div class="logo">
+                    <i class="fa-solid fa-globe"></i>
+                    <div class="logo-text">
+                        <span class="brand-name">CONECTIVIDADE</span>
+                        <span class="brand-sub">E SEGURANÇA</span>
+                    </div>
+                </div>
+
+                <nav class="nav-menu">
+                    <a href="index.html" class="nav-link active">HOME</a>
+                    <a href="servicos.html" class="nav-link">SERVIÇOS</a>
+                    <a href="sobre.html" class="nav-link">SOBRE NÓS</a>
+                    <a href="blog.html" class="nav-link">BLOG</a>
+                    
+                </nav>
+
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="search-input-home" placeholder="Pesquisar tópico...">
+                </div>
+            </div>
+        </header>
+
+        <section class="hero-banner">
+            <div class="hero-content">
+                <h1>BEM-VINDO AO CONECTIVIDADE E SEGURANÇA</h1>
+                <p>Uma plataforma dedicada à tecnologia, redes e proteção digital. Oferecemos insights, recursos essenciais e soluções inovadoras para transformar e blindar a sua jornada no ambiente virtual. Explore nossos conteúdos!</p>
+            </div>
+        </section>
+
+        <section class="videos-section">
+            <h2 class="section-title">NOSSOS VÍDEOS EM DESTAQUE</h2>
+            
+            <div class="videos-grid">
+                <div class="video-card">
+                    <div class="video-thumbnail" style="height: auto;">
+                        <video src="video/video1.mp4" poster="imgs/thumb.png" controls style="width: 100%; display: block; object-fit: cover;"></video>
+                    </div>
+                    <div class="video-info">
+                        <h3>A Importância da Atualização de Softwares: Por Que Não Ignorar os Avisos do Sistema?</h3>
+                       
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-thumbnail" style="height: auto;">
+                        <video src="video/video2.mp4"poster="imgs/thumb.png" controls style="width: 100%; display: block; object-fit: cover;"></video>
+                    </div>
+                    <div class="video-info">
+                        <h3>O "Efeito Reverso" das Atualizações: Como Hackers Usam Correções para Atacar Sistemas Desprotegidos</h3>
+                        
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-thumbnail" style="height: auto;">
+                        <video src="video/video3.mp4"poster="imgs/thumb.png" controls style="width: 100%; display: block; object-fit: cover;"></video>
+                    </div>
+                    <div class="video-info">
+                        <h3>Segurança Digital na Prática: Passos Simples para Blindar Seus Dispositivos Hoje Mesmo</h3>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="quiz-container">
+                <button class="btn-quiz" id="start-quiz-btn">COMEÇAR QUIZ</button>
+            </div>
+        </section>
+    </div>
+
+    <div id="quiz-page" class="hidden">
+        <header class="quiz-header">
+            <div class="logo-quiz">
+                <i class="fa-solid fa-globe"></i>
+                <div class="logo-text">
+                    <span class="brand-name">CONECTIVIDADE</span>
+                    <span class="brand-sub">E SEGURANÇA</span>
+                </div>
+            </div>
+        </header>
+
+        <main class="quiz-wrapper">
+            <h1 class="quiz-main-title">QUIZ DE CIBERSEGURANÇA E REDES</h1>
+            
+            <div class="quiz-card">
+                <div class="quiz-progress-container">
+                    <span id="progress-text">Pergunta 1 de 10</span>
+                    <div class="progress-bar-bg">
+                        <div id="progress-bar-fill"></div>
+                    </div>
+                </div>
+
+                <h2 id="question-text" class="question-title">Carregando pergunta...</h2>
+
+                <div id="options-container" class="options-list">
+                    </div>
+
+                <div class="quiz-action-container">
+                    <button id="next-question-btn" class="btn-next" disabled>PRÓXIMA PERGUNTA</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="#">Privacidade</a>
+                <a href="#">Termos</a>
+                <a href="#">Contato</a>
+            </div>
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/conectividade_e_seguranca?igsh=MWxvODRsMnlsejNlNw=="><i class="fa-brands fa-instagram"></i></a>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
