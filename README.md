@@ -70,4 +70,4 @@ O projeto seguiu uma linha de produção ágil para garantir a entrega integrada
 
 1. Clone este repositório:
 ```bash
-   git clone [https://github.com/seu-usuario/capacitacao-ciberseguranca.git](https://github.com/seu-usuario/capacitacao-ciberseguranca.git)
+   git clone [https://github.com/viniciusgm25/capacitacao-ciberseguranca.git](https://github.com/viniciusgm25/capacitacao-ciberseguranca.git)
